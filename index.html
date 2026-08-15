@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>帝国时代4 · 资讯台</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand" title="回到首页">
+      <span class="brand-mark">⚔️</span>
+      <span class="brand-text">帝国时代4 <em>资讯台</em></span>
+    </div>
+    <nav class="nav" id="nav">
+      <button class="nav-btn active" data-tab="home">首页</button>
+      <button class="nav-btn" data-tab="news">资讯</button>
+      <button class="nav-btn" data-tab="patches">补丁平衡</button>
+      <button class="nav-btn" data-tab="civs">文明图鉴</button>
+      <button class="nav-btn" data-tab="events">活动日历</button>
+      <button class="nav-btn" data-tab="ranked">天梯赛季</button>
+      <button class="nav-btn" data-tab="esports">电竞赛事</button>
+    </nav>
+  </header>
+  <main id="app">
+    <section id="view-home" class="view"></section>
+    <section id="view-news" class="view hidden"></section>
+    <section id="view-patches" class="view hidden"></section>
+    <section id="view-civs" class="view hidden"></section>
+    <section id="view-events" class="view hidden"></section>
+    <section id="view-ranked" class="view hidden"></section>
+    <section id="view-esports" class="view hidden"></section>
+  </main>
+  <footer class="footer">
+    <p>数据整理自 <a href="https://www.ageofempires.com/news/" target="_blank" rel="noopener">ageofempires.com 官网</a>、官方支持站与官方论坛，最后更新 <span id="updated-at"></span>。仅供学习参考，游戏内容版权归官方所有。</p>
+  </footer>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
